@@ -1,0 +1,139 @@
+@media screen and (max-width: 1400px) {
+    .wrapper .decor-background-header .decor-element-5 {
+        top: 0px;
+        right: 0;
+    }
+}
+
+    @media screen and (max-width: 1020px) {
+    .wrapper header .header-inner .header-inner-menu ul li {
+        display: none;
+    }
+
+    header .header-inner .menu-icon-mobile {
+        display: block;
+    }
+
+    .slogan-follow .slogan img {
+        width: 400px;
+    }
+
+    .slogan-follow {
+        top: 350px;
+    }
+
+    .wrapper .decor-background-header {
+        display: none;
+    }
+
+    .footer-inner-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-element {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footer-logo {
+        width: 300px;
+    }
+
+    .hidden-footer-element {
+        display: none;
+    }
+
+    @media screen and (max-width: 750px) {
+        .slogan-follow .slogan img {
+            width: 300px;
+        }
+
+        .slogan-follow {
+            top: 300px;
+            right: 50px;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        header .header-inner .header-inner-logo {
+            img {
+                width: 150px;
+            }
+
+            font-size: 10px;
+        }
+
+        header .header-inner {
+            padding: 20px 10px;
+        }
+
+        .slogan-follow .slogan img {
+            width: 200px;
+        }
+
+        .slogan-follow {
+            top: 130px;
+            right: 10px;
+
+            .follow-btn button {
+                padding: 5px 20px;
+                font-size: 10px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .slogan-follow {
+            top: 100px;
+            right: 0;
+
+            .follow-btn button {
+                padding: 5px 20px;
+                font-size: 10px;
+            }
+
+            .social-follow ul li {
+                padding: 2px;
+            }
+
+        }
+        footer{
+            padding: 0;
+        }
+        .footer-banner-content{
+            .footer-banner-content-title{
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+        }
+        .footer-banner-content-slogan{
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+        .slogan-follow .slogan img {
+            width: 100px;
+        }
+
+        .follow {
+            margin-top: 0;
+        }
+
+        .slogan-follow {
+            top: 100px;
+            right: 10px;
+
+            .follow-btn button {
+                padding: 5px 20px;
+                font-size: 10px;
+            }
+        }
+
+        .footer-logo {
+            width: 150px;
+        }
+    }
