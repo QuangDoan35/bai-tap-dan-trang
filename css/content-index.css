@@ -1,0 +1,48 @@
+.decor{
+    position: absolute;
+    z-index: 1;
+}
+/*CSS who we are*/
+.who-we-are{
+    width: 100%;
+    padding: 10px;
+    margin-top: -300px;
+    position: relative;
+    z-index: 4;
+}
+.who-we-are .who-we-are-inner{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+.who-we-are-inner-content{
+    padding-left: 50px;
+}
+.who-we-are-inner-content-title{
+    margin-bottom: 50px;
+}
+.who-we-are-btn{
+    padding: 10px 50px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #0061B0, #3b9eef);
+}
+.who-we-are-inner-banner img{
+    float: right;
+}
+.who-we-are-inner-content-title{
+    .who-we-are-inner-content-title-who{
+        font-size: 100px;
+    }
+    .who-we-are-inner-content-title-weare{
+        font-size: 80px;
+        padding-left: 100px
+    }
+}
+/*CSS what we do*/
+.what-we-do{
+    margin-top: 300px;
+}

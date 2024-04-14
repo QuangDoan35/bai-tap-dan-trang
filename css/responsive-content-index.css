@@ -1,0 +1,55 @@
+/*who we are*/
+@media screen and (max-width: 1350px){
+    .who-we-are-inner{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 900px){
+    .who-we-are-inner-banner img{
+        width: 800px;
+    }
+}
+@media screen and (max-width: 800px){
+    .who-we-are{
+        margin-top: -200px;
+    }
+    .who-we-are-inner-banner img{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 600px){
+    .who-we-are{
+        margin-top: -100px;
+    }
+    .who-we-are-inner-banner img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 450px){
+    .who-we-are{
+        margin-top: -50px;
+    }
+    .who-we-are-inner-banner img{
+        width: 300px;
+    }
+    
+    .who-we-are-inner-content-title{
+        .who-we-are-inner-content-title-who{
+            font-size: 80px;
+        }
+        .who-we-are-inner-content-title-weare{
+           font-size: 40px;
+        }
+    }
+}
+@media screen and (max-width: 300px){
+    .who-we-are-inner-content-title{
+        .who-we-are-inner-content-title-who{
+            font-size: 70px;
+        }
+        .who-we-are-inner-content-title-weare{
+           font-size: 40px;
+           padding-left: 20px;
+        }
+    }
+}
