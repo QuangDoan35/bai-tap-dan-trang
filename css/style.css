@@ -1,366 +1,263 @@
+@font-face {
+    font-family: myfont;
+    src: url(../font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: numberOneFont;
+    src: url(../font/Seymour_One/SeymourOne-Regular.ttf);
+}
 *{
+    font-family: myfont;
     padding: 0;
     margin: 0;
-    font-family:'Gilroy', sans-serif;
+    box-sizing: border-box;
 }
-.flex{
-    display: flex;
-}
-.header a{
-    text-decoration: none;
-    color: white;
-}
-.header{
+.wrapper{
     width: 100%;
-    letter-spacing: 0px;
-    background-color: #f1f1f1;
+    min-height: 100vh;
 }
-.background-header{
+/*CSS HEADER*/
+header{
+    background-color: #eee;
+    overflow: hidden;
+}
+header .background-header{
     position: relative;
-    z-index: 2;
+    width: 100%;
 }
-.header-inner{
+header .background-header .background-header-picture{
+    width: 100%;
+}
+header .header-inner{
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.decor-background-header .decor-style{
+    position: absolute;
     z-index: 2;
 }
-.header-menu{
+.decor-background-header{
+    .decor-element-1{
+        top: 0; right: 0;
+    }
+    .decor-element-2{
+        top: 400px; left: -50px;
+    }
+    .decor-element-3{
+        top: 700px; left: 150px;
+    }
+    .decor-element-4{
+        top: 1000px; left: 700px;
+    }
+    .decor-element-5{
+        top: 1200px; right: 100px;
+    }
+}
+.header-inner .menu-icon-mobile img{
+    width: 50px;
+    display: none;
+}
+.header-inner .header-inner-logo{
+    img{
+        width: 350px;
+    }
+}
+.header-inner-menu ul{
     display: flex;
-    align-items: top;
-    justify-content: center;
-    padding: 50px 100px;
-}
-.header-menu .logo{
-    padding-right: 100px;
-}
-.header-menu nav{
-    padding-left: 100px;
-}
-.header-menu nav ul{
-    display: flex;
-    list-style-type: none;
-    color: white;
-}
-.header-menu ul li{
-    padding: 0 0 0 50px;
-}
-.header-menu nav ul li a{
-    color: white;
-}
-.slogan{
-    float: right;
-    margin-top: 250px;
-    margin-right: 100px;
-    letter-spacing: -2px;
-    color: white;
-}
-.slogan-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.slogan .line{
-    width: 90%;
-    height: 15px;
-    float: right;
-    background-color: white;
-    margin-top: -45px;
-}
-.slogan .follow-btn{
-    float: right;
-    width: 170px;
-    height: 40px;
-    color:#048BFA; 
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 15px;
-}
-.slogan .contact-social{
-    float: right;
-    margin-right: 50px;
-}
-.slogan .contact-social ul{
     list-style: none;
-    display: flex;
 }
-.contact-social img{
-    width: 40px;
-    padding: 0 10px;
+.header-inner-menu ul li{
+    font-size: 20px;
 }
-.decor .decor-detail{
+.header-inner-menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.slogan-follow{
+    width: 100%;
     position: absolute;
     z-index: 3;
-}
-.decor .line-1{
-    width: 100px;
-    top: 0;
-    right: 50px;
-}
-.decor .line-2{
-    width: 100px;
     top: 500px;
-    left: 0;
-}
-.decor .box-1{
-    width: 150px;
-    top: 700px;
-    left: 300px;
-}
-.decor .ellipse-1{
-    width: 150px;
-    top: 1000px;
-    right: 700px;
-}
-.decor .ellipse-2{
-    width: 250px;
-    top: 1150px;
-    right: 100px;
-}
-.decor .line-3{
-    right: 150px;
-    bottom: -1300px;
-    z-index: 1;
-}
-.decor .ellipse-3{
-    width: 360px;
-    right: calc(50% - 180px);
-    bottom: -1550px;
-}
-.introduce{
-    position: relative;
-    height: 50vh;
-    padding-left: 100px;
-}
-.introduce .picture-decor{
-    top: -400px;
-    right: 5px;
-    z-index: 2;
-    position: absolute;
     float: right;
 }
-.introduce .introduce-btn{
-    position: absolute;
-    top: 70%;
-    border: none;
-    background-image: linear-gradient(to right, #0061B0, #048BFA);
-    padding: 15px 50px;
-    font-size: 15px;
-    color: white;
-    cursor: pointer;
+.slogan-follow-inner{
+    float: right;
+    margin-right: 200px;
 }
-
-/*CSS body*/
-body{
-    width: 100%;
+.slogan-follow-inner .follow{
+    float: right;
 }
-.body-inner{
-    padding: 50px;
+.follow-btn{
+    margin-top: 10px;
 }
-.what-we-do{
-    margin-top: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.what-we-do-inner{
-    display: flex;
-    width: 95%;
-    margin-top: 100px;
-}
-.what-we-do-inner div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.what-we-do-inner .dot{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: black;
-    margin: 10px;
-}
-
-.our-services{
-    margin-top: 150px;
-    display: flex;
-}
-.our-service-inner .our-service-inner-content{
-    display: flex;
-    margin-top: 100px;
-}
-.our-service-inner-content-container{
-    width: 100%;
-    div{
-        text-align: center;
-    }
-    .title{
-        font-size: 20px;
-        font-weight: bold;
-        margin: 20px 0;
-    }
-}
-
-.application-development-inner-content{
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-}
-.application-development-inner-content .content-1{
-    width: 400px;
-    height: 400px;
-    border: 3px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin: 20px;
-}
-.application-development-inner-content .content-2{
-    width: 500px;
-    height: 500px;
-    border: 3px solid rgb(56, 172, 255);
+.follow-btn button{
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(40, 133, 255);
     background-color: white;
-    box-shadow: rgba(21, 87, 255, 0.25) 0px 54px 55px, rgba(27, 9, 233, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin: 20px;
-}
-.application-development-inner-content .content-3{
-    width: 400px;
-    height: 400px;
-    border: 3px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin: 20px;
-}
-
-.tu-van{
-    background-image: linear-gradient(to right, #0058a0, #2da0ff);
-    margin-top: 100px;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.tu-van .input-container{
-    display: flex;
-    margin-top: 50px;
-}
-.tu-van .input-container input{
-    margin-right: 20px;
-    padding: 10px;
-    width: 150px;
-    outline: none;
     border: none;
 }
-.tu-van .input-container button{
-    width: 150px;
-    border: none;
-    background-color: #003255;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 20px;
+.social-follow{
+    margin-top: 20px;
+}
+.social-follow ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.social-follow ul img{
+    width: 50px;
 }
 
-.software-development .software-development-inner{
-    width: 100%;
-}
-
-.software-development-inner-content{
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-}
-.software-development-inner-content .content-1{
-    width: 400px;
-    height: 400px;
-    border: 3px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin: 20px;
-}
-.software-development-inner-content .content-2{
-    width: 500px;
-    height: 500px;
-    border: 3px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin: 20px;
-    border: 3px solid rgb(56, 172, 255);
-    background-color: white;
-    box-shadow: rgba(21, 87, 255, 0.25) 0px 54px 55px, rgba(27, 9, 233, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.software-development-inner-content .content-3{
-    width: 400px;
-    height: 400px;
-    border: 3px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin: 20px;
-}
-
-.meet-our-team{
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.meet-our-team-inner{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.meet-our-team-inner .member{
-    margin: 10px 50px;
-    text-align: center;
-    box-shadow: rgba(52, 52, 52, 0.35) 0px 5px 15px;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 15px;
-}
-.meet-our-team-inner .member-2{
-    height: 650px;
-}
-.meet-our-team-inner .member-picture{
-    img{
-        width: 100%;
-        height: 500px;
-        object-fit: cover;
-        border-radius: 10px;
-    }
-}
-
-.our-goals-inner-container{
+/*CSS FOOTER*/
+.header-decor-footer{
     position: relative;
-    z-index: 2;
-    padding: 50px;
-    background-color: #eee;
+}
+.header-decor-footer img{
+    width: 100%;
+}
+.header-decor-footer .header-decor-footer-ellipse{
+    width: 20%;
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+.footer-banner{
+    position: relative;
+}
+.footer-banner-img img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+footer .footer-banner .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.692);
+    width: 100%;
+    height: 500px;
+}
+.square-1{
+    position: absolute;
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(21, 108, 179);
+    right: 100px;
+    bottom: 5px;
+    border-radius: 5px;
+}
+.square-2{
+    position: absolute;
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    right: 145px;
+    bottom: 50px;
+    border-radius: 5px;
+}
+.square-3{
+    position: absolute;
+    z-index: 3;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    right: 200px;
+    bottom: 5px;
+    border-radius: 5px;
+}
+.footer-banner-content{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.footer-banner-content-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer-banner-content-slogan{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-banner-content-contact button{
+    padding: 10px 50px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(11, 79, 157), rgb(64, 169, 255));
+}
+.footer-banner-content-contact button:hover{
+    background-image: linear-gradient(to left, rgb(11, 79, 157), rgb(64, 169, 255));
+}
+footer{
+    width: 100%;
+    padding: 0;
+}
+.footer-decor-element{
+    position: absolute;
+    z-index: 1;
+}
+.footer-inner{
+    padding: 100px 200px;
+    padding: 100px 50px;
+    width: 100%;
+    background-image: linear-gradient(to top right, #014882, #006dc8, #0486f0);
+    position: relative;
+}
+.footer-inner .footer-inner-container{
     display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
-.our-goals-inner-container .left-side{
-    width: 50%;
+.footer-element{
+    padding: 10px;
+    width: 25%;
+    word-spacing: -1px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
 }
-.our-goals-inner-container .right-side{
-    width: 50%;
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+.hidden-footer-element{
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    ul li{
+        padding: 5px 0;
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
 }
