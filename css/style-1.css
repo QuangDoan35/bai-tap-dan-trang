@@ -210,6 +210,9 @@ header .header-inner .header-inner-logo{
     border-radius: 10px;
     background-image: linear-gradient(to right, rgb(11, 79, 157), rgb(64, 169, 255));
 }
+.footer-banner-content-contact button:hover{
+    background-image: linear-gradient(to left, rgb(11, 79, 157), rgb(64, 169, 255));
+}
 footer{
     width: 100%;
     padding: 0;
