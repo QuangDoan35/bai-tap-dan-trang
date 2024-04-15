@@ -142,3 +142,88 @@
         font-size: 20px;
     }
 }
+
+/*CSS APPLICATION DEVELOPMENT*/
+.application-development{
+    margin-top: 200px;
+}
+.application-development-inner{
+    position: relative;
+    z-index: 2;
+}
+.application-development-inner-header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    padding-left: 50px;
+}
+.application{
+    font-size: 80px;
+    font-weight: bold;
+    color: #0061B0;
+}
+.development{
+    font-size: 80px;
+    margin-top: -30px;
+    color: #8f8f8f;
+}
+.application-development-inner-header-describe{
+    display: flex;
+    align-items: center;
+    p{
+        font-size: 25px;
+    }
+}
+.application-development-inner-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.application-development-inner-body-element{
+    width: 350px;
+    height: 350px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    padding-top: 50px;
+    background-color: white;
+}
+.application-development-inner-body-element-header{
+    img{
+        width: 100px;
+    }
+}
+.application-development-inner-body-element-content{
+    .title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .content{
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+}
+.center-element{
+    width: 450px;
+    height: 450px;
+    border: 5px solid #0061B0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    box-shadow: #066cbe90 0px 22px 70px 4px;
+    position: relative;
+}
+.decor-center-element{
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    top: -60px;
+    left: 20px;
+}
+.application-development-inner-body-element-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
