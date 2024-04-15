@@ -53,3 +53,192 @@
         }
     }
 }
+
+/*WHAT WE DO*/
+@media screen and (max-width: 1500px){
+    .what-we-do-inner-body-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .what-we-do-inner-body-element{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px solid #d8d8d8;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .what-we-do-inner-header-title{
+        font-size: 70px;
+        font-weight: bold;
+    }
+    .what-we-do-inner-header-slogan{
+        font-size: 20px;
+    }
+    .what-we-do-inner-body-element img{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 550px){
+    .what-we-do-inner-header-title{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .what-we-do-inner-header-slogan{
+        font-size: 17px;
+        padding: 0 50px;
+    }
+    .what-we-do-inner-body-element img{
+        width: 90px;
+    }
+    .what-we-do-inner-body-element{
+        margin: 0 20px;
+    }
+    .what-we-do-inner-body-element p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 450px){
+    .what-we-do-inner-header-title{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .what-we-do-inner-header-slogan{
+        font-size: 17px;
+        padding: 0 20px;
+    }
+    .what-we-do-inner-body-element img{
+        width: 70px;
+    }
+    .what-we-do-inner-body-element{
+        margin: 0 10px;
+    }
+    .what-we-do-inner-body-element p{
+        font-size: 15px;
+    }
+    .dot{
+        margin: 10px;
+    }
+    .dot-style{
+        width: 10px;
+        height: 10px;
+    }
+      
+}
+
+@media screen and (max-width: 450px){
+    .what-we-do-inner-header-title{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .what-we-do-inner-header-slogan{
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .what-we-do-inner-body-element img{
+        width: 60px;
+    }
+    .what-we-do-inner-body-element{
+        margin: 0 5px;
+    }
+    .what-we-do-inner-body-element p{
+        font-size: 10px;
+    }
+    .dot{
+        margin: 10px;
+    }
+    .dot-style{
+        width: 5px;
+        height: 5px;
+    }
+}
+
+/*CSS OUR SERVICES*/
+@media screen and (max-width: 1400px){
+    .our-services-inner{
+        flex-direction: column-reverse;
+    }
+    .our-services-inner-banner{
+        img{
+            float: right;
+        }
+    }
+    .our-services-inner-content{
+        margin-top: -200px;
+    }
+    .our-services-inner-content{
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .our-services-inner-content-body-element{
+        padding: 0 10px;
+        p{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 800px){
+    .our-services-inner-content-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .our-services-inner-content-body-element{
+        margin-top: 20px;
+        border-bottom: 1px solid #adadad;
+    }
+}
+@media screen and (max-width: 650px){
+    .our-services-inner-content-header-title{
+        font-size: 70px;
+    } 
+    .our-services-inner-content-header-title-services{
+        margin-left: 30px;
+    }
+    .our-services-inner-content-header-introduce{
+        font-size: 16px;
+    }
+    .our-services-inner-content-body-element img{
+        width: 60px;
+    }
+    .our-services-inner-content-body-element{
+        div{
+            font-size: 13px;
+        }
+    }
+    .our-services-inner-content-header-title-services{
+        margin-top: -20px;
+    }
+    .our-services-inner-content{
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width: 450px){
+    .our-services-inner-content-header-title{
+        font-size: 60px;
+    } 
+    .our-services-inner-content-header-title-services{
+        margin-left: 0px;
+    }
+    .our-services-inner-content-body{
+        margin-top: 10px;
+    }
+    .our-services-inner-content-body-element{
+        p{
+            font-size: 10px;
+        }
+    }
+}
+@media screen and (max-width: 350px){
+    .our-services-inner-content-header-title{
+        font-size: 50px;
+    } 
+    .our-services-inner-content-header-title-services{
+        margin-left: 0px;
+    }
+    .our-services-inner-content-body{
+        margin-top: 0px;
+    }
+}

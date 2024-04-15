@@ -39,10 +39,106 @@
     }
     .who-we-are-inner-content-title-weare{
         font-size: 80px;
-        padding-left: 100px
+        padding-left: 100px;
     }
 }
 /*CSS what we do*/
+.dot{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+.dot-style{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+.what-we-do-inner-body-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 50px;
+}
+.what-we-do-inner-body-element{
+    margin: 0 15px;
+    img{
+        width: 100px;
+    }
+    .what-we-do-inner-body-element-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.what-we-do-inner-body-element-content{
+    p{
+        font-size: 17px;
+    }
+}
 .what-we-do{
     margin-top: 300px;
+    width: 100%;
+    position: relative;
+}
+.what-we-do-inner-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.what-we-do-inner-header-title{
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.what-we-do-inner-header-slogan{
+    font-size: 20px;
+    padding: 0 100px;
+}
+.what-we-do-inner-body{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.what-we-do-inner-body-container{
+    display: flex;
+    justify-content: center;
+}
+
+/*CSS OUR SERVICES*/
+.our-services-inner{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.our-services-inner-content-header-title{
+    font-size: 100px;
+}
+.our-services-inner-content-header-title-services{
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.our-services-inner-content-header-introduce{
+    font-size: 20px;
+}
+.our-services-inner-content{
+    padding-left: 100px;
+}
+.our-services-inner-content-body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.our-services-inner-content-body-element{
+    text-align: center;
+    padding: 0 20px;
+    p{
+        width: 80%;
+        font-size: 17px;
+    }
+    div{
+        font-size: 20px;
+    }
 }
