@@ -423,7 +423,7 @@
     padding: 0 100px;
     margin-top: 150px;
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: -100px;
 }
 .our-goals-inner{
     width: 100%;
@@ -459,7 +459,7 @@
     display: flex;
     justify-content: space-around;
     padding: 100px;
-    background-color: #f1f1f18f;
+    background-color: #f1f1f1de;
     border-radius: 10px;
 }
 .our-goals-inner-body-content-title{

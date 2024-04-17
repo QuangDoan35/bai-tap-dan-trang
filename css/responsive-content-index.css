@@ -606,3 +606,8 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width: 550px){
+    .our-goals{
+        margin-bottom: -50px;
+    }
+}
