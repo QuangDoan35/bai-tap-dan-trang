@@ -1,0 +1,27 @@
+.meet-our-team-header {
+    text-align: center;
+}
+
+.meet-our-team-header-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.meet-our-team-header-introduce {
+    font-size: 20px;
+}
+.carousel-inner{
+    display: flex;
+}
+.card-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+}
+.card{
+    margin: 20px;
+    width: 20%;
+    border: none;
+    text-align: center;
+}

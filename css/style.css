@@ -126,8 +126,8 @@ header .header-inner{
 .header-decor-footer .header-decor-footer-ellipse{
     width: 20%;
     position: absolute;
-    left: 0;
-    top: 10%;
+    left: -50px;
+    top: 15%;
 }
 .footer-banner{
     position: relative;

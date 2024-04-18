@@ -68,6 +68,9 @@
         border-bottom: 1px solid #d8d8d8;
         padding: 10px;
     }
+    .what-we-do-inner-body{
+        padding: 0 10px;
+    }
 }
 @media screen and (max-width: 1200px){
     .what-we-do-inner-header-title{
@@ -351,6 +354,7 @@
     .input-box{
         display: flex;
         justify-content: center;
+        margin: 10px 0;
     }
     .submit-btn{
         display: flex;
@@ -537,7 +541,35 @@
         font-size: 14px;
     }
 }
-
+@media screen and (max-width: 1000px){
+    .card{
+        width: 30%;
+    }
+    .card-wrapper{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 650px){
+    .card{
+        width: 33%;
+        margin: 5px;
+    }
+    .meet-our-team-body{
+        margin: 0 10px;
+    }
+    .card-wrapper{
+        padding: 0;
+    }
+    .card-body{
+        padding: 0;
+    }
+    h5{
+        font-size: 15px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+}
 
 /*CSS OUR GOALS*/
 @media screen and (max-width: 1500px){
@@ -582,6 +614,24 @@
             font-size: 70px;
         }
     }
+    .carousel-control-next{
+        background-color: rgba(32, 141, 230, 0.511);
+        padding: 20px;
+        right: -20px;
+        height: 50px;
+        width: 50px;
+        top: calc(50% - 25px);
+        border-radius: 50%;
+    }
+    .carousel-control-prev{
+        background-color: rgba(32, 141, 230, 0.511);
+        padding: 20px;
+        left: -20px;
+        height: 50px;
+        width: 50px;
+        top: calc(50% - 25px);
+        border-radius: 50%;
+    }
 }
 @media screen and (max-width: 950px){
     .our-goals-inner-header-introduce{
@@ -604,6 +654,20 @@
     }
     .our-goals-inner-header{
         flex-direction: column;
+    }
+}
+@media screen and (max-width: 900px){
+    .carousel-control-next{
+        right: 0px;
+        top: 50%;
+        height: 70px;
+        width: 70px;
+    }
+    .carousel-control-prev{
+        left: 0px;
+        top: 50%;
+        height: 70px;
+        width: 70px;
     }
 }
 @media screen and (max-width: 550px){

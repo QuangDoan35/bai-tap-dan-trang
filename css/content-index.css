@@ -49,8 +49,8 @@
     margin: 20px 20px;
 }
 .dot-style{
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-color: black;
     border-radius: 50%;
 }
@@ -64,7 +64,7 @@
 .what-we-do-inner-body-element{
     margin: 0 15px;
     img{
-        width: 100px;
+        width: 70px;
     }
     .what-we-do-inner-body-element-content{
         display: flex;
@@ -73,7 +73,7 @@
 }
 .what-we-do-inner-body-element-content{
     p{
-        font-size: 17px;
+        font-size: 13px;
     }
 }
 .what-we-do{
@@ -101,6 +101,7 @@
 .what-we-do-inner-body{
     margin-top: 50px;
     font-size: 20px;
+    padding: 0 150px;
 }
 .what-we-do-inner-body-container{
     display: flex;
@@ -258,6 +259,7 @@
     padding: 10px 20px;
     margin: 0 10px;
     width: 200px;
+    border-radius: 5px;
 }
 .submit-btn input{
     border: none;
@@ -267,6 +269,7 @@
     padding: 10px 20px;
     margin: 0 10px;
     width: 200px;
+    border-radius: 5px;
 }
 
 /*CSS SOFTWARE DEVELOPMENT*/
@@ -374,6 +377,9 @@
 .meet-our-team-header-introduce{
     font-size: 25px;
 }
+.meet-our-team-body{
+    margin: 0 50px;
+}
 .meet-our-team-body-inner{
     display: flex;
     justify-content: space-around;
@@ -417,13 +423,32 @@
         padding: 0 10px;
     }
 }
+.carousel-inner{
+    display: flex;
+}
+.card-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+}
+.card{
+    margin: 20px;
+    width: 20%;
+    border: none;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.prev-meet-our-team{
+    left: 1000px;
+}
 
 /*CSS OUR GOALS*/
 .our-goals{
     padding: 0 100px;
     margin-top: 150px;
     position: relative;
-    margin-bottom: -100px;
+    margin-bottom: 100px;
 }
 .our-goals-inner{
     width: 100%;
@@ -459,7 +484,7 @@
     display: flex;
     justify-content: space-around;
     padding: 100px;
-    background-color: #f1f1f1de;
+    background-color: #f1f1f1;
     border-radius: 10px;
 }
 .our-goals-inner-body-content-title{
@@ -480,6 +505,29 @@
     width: 300px;
     top: 50px;
 }
+.carousel-inner{
+    display: flex;
+}
+.carousel-control-prev{
+    background-color: rgba(32, 141, 230, 0.511);
+    padding: 20px;
+    left: -50px;
+    height: 100px;
+    width: 100px;
+    top: calc(50% - 25px);
+    border-radius: 50%;
+}
+
+.carousel-control-next{
+    background-color: rgba(32, 141, 230, 0.511);
+    padding: 20px;
+    right: -50px;
+    height: 100px;
+    width: 100px;
+    top: calc(50% - 25px);
+    border-radius: 50%;
+}
+
 
 
 .contac-icon{
