@@ -1,7 +1,8 @@
 .messenger-for-maiatech{
     position: relative;
     width: 100%;
-    margin-top: -300px;
+    margin-top: -600px;
+    z-index: 3;
 }
 .messenger-for-maiatech-inner{
     padding: 50px;
@@ -13,6 +14,7 @@
     border-radius: 20px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     background-color: white;
+    z-index: 3;
 }
 .messenger-for-maiatech-inner-input{
     display: flex;
@@ -55,18 +57,19 @@
     position: absolute;
 }
 .messenger-maiatech-decor-1{
+    z-index: 1;
     left: 0;
-    width: 500px;
-    z-index: -1;
-    top: 400px;
 }
 .messenger-maiatech-decor-2{
-    left: 300px;
-    z-index: -1;
+    z-index: 1;
+    left: 200px;
 }
 .messenger-maiatech-decor-3{
+    z-index: 1;
+    bottom: 200px;
+    width: 500px;
     left: 0;
-    z-index: -1;
+    opacity: 0.3;
 }
 .messenger-for{
     font-size: 50px;

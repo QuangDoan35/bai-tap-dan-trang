@@ -2,10 +2,6 @@
     font-family: myfont;
     src: url(../font/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
-@font-face {
-    font-family: numberOneFont;
-    src: url(../font/Seymour_One/SeymourOne-Regular.ttf);
-}
 *{
     font-family: myfont;
     padding: 0;
@@ -19,6 +15,8 @@
 /*CSS HEADER*/
 header{
     overflow: hidden;
+    background-color: rgba(241, 241, 241, 0.581);
+    padding-bottom: 300px;
 }
 header .background-header{
     position: relative;
@@ -34,8 +32,8 @@ header .header-inner{
     left: 0;
     z-index: 3;
     display: flex;
-    justify-content: space-between;
     padding: 100px;
+    justify-content: space-between;
 }
 .decor-background-header .decor-style{
     position: absolute;
@@ -58,9 +56,11 @@ header .header-inner{
         top: 1200px; right: 100px;
     }
 }
+.header-inner .menu-icon-mobile{
+    display: none;
+}
 .header-inner .menu-icon-mobile img{
     width: 50px;
-    display: none;
 }
 .header-inner .header-inner-logo{
     img{
@@ -97,7 +97,8 @@ header .header-inner{
     margin-top: 10px;
 }
 .follow-btn button{
-    padding: 20px 60px;
+    padding: 10px 60px;
+    border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
     color: rgb(40, 133, 255);
@@ -245,6 +246,11 @@ footer{
         padding: 0;
         margin: 0;
     }
+}
+.footer-copyright{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
 }
 .hidden-footer-element{
     ul{

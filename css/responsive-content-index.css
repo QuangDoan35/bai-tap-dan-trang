@@ -4,6 +4,14 @@
         flex-direction: column-reverse;
     }
 }
+@media screen and (max-width: 1250px){
+    .who-we-are{
+        margin-top: -500px;
+    }
+    .who-we-are-inner-banner img{
+        width: 600px;
+    }
+}
 @media screen and (max-width: 900px){
     .who-we-are-inner-banner img{
         width: 800px;
@@ -11,7 +19,7 @@
 }
 @media screen and (max-width: 800px){
     .who-we-are{
-        margin-top: -200px;
+        margin-top: -500px;
     }
     .who-we-are-inner-banner img{
         width: 600px;
@@ -19,7 +27,7 @@
 }
 @media screen and (max-width: 600px){
     .who-we-are{
-        margin-top: -100px;
+        margin-top: -400px;
     }
     .who-we-are-inner-banner img{
         width: 400px;
@@ -27,7 +35,7 @@
 }
 @media screen and (max-width: 450px){
     .who-we-are{
-        margin-top: -50px;
+        margin-top: -350px;
     }
     .who-we-are-inner-banner img{
         width: 300px;
@@ -164,12 +172,15 @@
         flex-direction: column-reverse;
     }
     .our-services-inner-banner{
+        width: 100%;
         img{
+            width: 60%;
             float: right;
         }
     }
     .our-services-inner-content{
         margin-top: -200px;
+        width: 100%;
     }
     .our-services-inner-content{
         padding: 30px;
@@ -613,24 +624,6 @@
         .goals{
             font-size: 70px;
         }
-    }
-    .carousel-control-next{
-        background-color: rgba(32, 141, 230, 0.511);
-        padding: 20px;
-        right: -20px;
-        height: 50px;
-        width: 50px;
-        top: calc(50% - 25px);
-        border-radius: 50%;
-    }
-    .carousel-control-prev{
-        background-color: rgba(32, 141, 230, 0.511);
-        padding: 20px;
-        left: -20px;
-        height: 50px;
-        width: 50px;
-        top: calc(50% - 25px);
-        border-radius: 50%;
     }
 }
 @media screen and (max-width: 950px){

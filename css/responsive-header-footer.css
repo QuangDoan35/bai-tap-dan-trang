@@ -10,7 +10,7 @@
     .header-inner-menu{
         display: none;
     }
-    .header-inner .menu-icon-mobile img{
+    .header-inner .menu-icon-mobile{
         display: block;
     }
 }
