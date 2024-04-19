@@ -55,6 +55,18 @@
 .dot{
     position: absolute;
 }
+.dot-development{
+    position: relative;
+}
+.diagonal-line{
+    position: absolute;
+    width: 20px;
+    right: calc(50% - 10px);
+    top: calc(50% - 0.5px);
+    transform: rotate(45deg);
+    height: 1px;
+    background-color: #0061B0;
+}
 .dot-style{
     width: 10px;
     height: 10px;
