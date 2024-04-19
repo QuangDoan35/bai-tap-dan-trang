@@ -73,11 +73,14 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        border-bottom: 1px solid #d8d8d8;
-        padding: 10px;
+        padding: 10px 50px;
+        margin-bottom: 20px;
     }
     .what-we-do-inner-body{
         padding: 0 10px;
+    }
+    .dot-line{
+        display: none;
     }
 }
 @media screen and (max-width: 1200px){
@@ -106,6 +109,7 @@
     }
     .what-we-do-inner-body-element{
         margin: 0 20px;
+        padding: 0 10px;
     }
     .what-we-do-inner-body-element p{
         font-size: 15px;
@@ -201,7 +205,6 @@
     }
     .our-services-inner-content-body-element{
         margin-top: 20px;
-        border-bottom: 1px solid #adadad;
     }
 }
 @media screen and (max-width: 650px){
@@ -665,6 +668,6 @@
 }
 @media screen and (max-width: 550px){
     .our-goals{
-        margin-bottom: -50px;
+        margin-bottom: 50px;
     }
 }
