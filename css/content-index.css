@@ -199,6 +199,9 @@
     display: flex;
     justify-content: space-between;
 }
+.our-services-inner-content-header{
+    padding: 50px;
+}
 .our-services-inner-content-header-title{
     font-size: 100px;
 }
@@ -482,19 +485,25 @@
 .carousel-inner{
     display: flex;
 }
-.card-wrapper{
+.card-style-wrapper{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 0 100px;
     margin-bottom: 20px;
 }
-.card{
-    margin: 20px;
-    width: 25%;
+.card-style{
     border: none;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 0 20px;
+    border-radius: 10px;
+    img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
 }
 #carousel-meet-our-teem .carousel-indicators{
     bottom: -50px;

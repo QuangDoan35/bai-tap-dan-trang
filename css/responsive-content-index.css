@@ -238,16 +238,20 @@
     .our-services-inner-content-body-element{
         margin-top: 20px;
     }
+    .our-services-inner-content-header{
+        padding: 10px;
+    }
 }
 @media screen and (max-width: 650px){
     .our-services-inner-content-header-title{
-        font-size: 70px;
+        font-size: 50px;
     } 
     .our-services-inner-content-header-title-services{
         margin-left: 30px;
     }
     .our-services-inner-content-header-introduce{
-        font-size: 16px;
+        font-size: 14px;
+        padding: 0;
     }
     .our-services-inner-content-body-element img{
         width: 60px;
@@ -266,7 +270,7 @@
 }
 @media screen and (max-width: 450px){
     .our-services-inner-content-header-title{
-        font-size: 60px;
+        font-size: 40px;
     } 
     .our-services-inner-content-header-title-services{
         margin-left: 0px;
@@ -282,7 +286,7 @@
 }
 @media screen and (max-width: 350px){
     .our-services-inner-content-header-title{
-        font-size: 50px;
+        font-size: 40px;
     } 
     .our-services-inner-content-header-title-services{
         margin-left: 0px;
