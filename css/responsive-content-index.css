@@ -5,6 +5,9 @@
     }
 }
 @media screen and (max-width: 1350px){
+    .who-we-are{
+        padding: 0;
+    }
     .who-we-are-inner{
         flex-direction: column-reverse;
     }
@@ -20,6 +23,7 @@
     .who-we-are-inner-banner{
         display: flex;
         justify-content: center;
+        margin-top: -30px;
     }
     .who-we-are-inner-banner img{
         width: 600px;
@@ -28,6 +32,12 @@
 @media screen and (max-width: 1250px){
     .who-we-are{
         margin-top: -500px;
+    }
+    .who-we-are-inner-content-body-introduce{
+        width: 100%;
+    }
+    .who-we-are-inner-content-body{
+        padding: 30px 100px;
     }
 }
 @media screen and (max-width: 800px){
@@ -48,6 +58,9 @@
     .who-we-are-decor-1{
         display: none;
     }
+    .who-we-are-inner-content-body{
+        padding: 30px 50px;
+    }
 }
 @media screen and (max-width: 450px){
     .who-we-are{
@@ -56,8 +69,9 @@
     .who-we-are-inner-banner img{
         width: 300px;
     }
-    
     .who-we-are-inner-content-title{
+        margin-bottom: -10px;
+        margin-top: 40px;
         .who-we-are-inner-content-title-who{
             font-size: 80px;
         }
@@ -65,6 +79,9 @@
            font-size: 40px;
            margin-top: -20px;
         }
+    }
+    .who-we-are-inner-content-body{
+        padding: 30px;
     }
 }
 @media screen and (max-width: 300px){
@@ -459,7 +476,13 @@
         padding: 50px;
     }
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
+    .software-development{
+            p{
+                text-align: right;
+            }
+        }
+    }
     .software-development-inner-header{
         flex-direction: column-reverse;
         padding-right: 20px;
@@ -469,12 +492,6 @@
     }
 }
 @media screen and (max-width: 800px){
-    .software{
-        font-size: 50px;
-    }
-    .development{
-        font-size: 50px;
-    }
     .software-development-inner-body-element{
         width: 300px;
         height: 300px;
@@ -492,7 +509,7 @@
         }
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     .software{
         font-size: 40px;
     }

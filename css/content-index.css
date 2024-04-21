@@ -13,11 +13,16 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    z-index: 10;
+    z-index: 2;
 }
 .who-we-are-inner-content{
     padding-left: 50px;
     background-color: rgba(241, 241, 241, 0.581);
+    display: flex;
+    flex-direction: column;
+}
+.who-we-are-inner-content-body-introduce{
+    width: 80%;
 }
 .who-we-are-inner-content-title{
     margin-bottom: 50px;
@@ -32,6 +37,10 @@
     border-radius: 10px;
     cursor: pointer;
     background-image: linear-gradient(to right, #0061B0, #3b9eef);
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .who-we-are-inner-content-title{
     .who-we-are-inner-content-title-who{
