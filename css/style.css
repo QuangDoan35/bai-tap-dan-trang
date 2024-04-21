@@ -21,6 +21,7 @@ header{
 header .background-header{
     position: relative;
     width: 100%;
+    z-index: 1;
 }
 header .background-header .background-header-picture{
     width: 100%;
@@ -78,6 +79,9 @@ header .header-inner{
     color: white;
     text-decoration: none;
     padding: 0 15px;
+}
+.slogan-mobile{
+    display: none;
 }
 .slogan-follow{
     width: 100%;

@@ -31,6 +31,9 @@
     .social-follow ul{
         justify-content: space-around;
     }
+    .decor-element-1{
+        width: 100px;
+    }
 }
 @media only screen and (max-width: 750px){
     header .header-inner{
@@ -44,8 +47,14 @@
     .slogan-follow {
         top: 250px;
     }
-    .slogan-follow-inner .slogan img{
-        width: 300px;
+    .slogan{
+        display: none;
+    }
+    .slogan-follow-inner .slogan-mobile{
+        display: block;
+        img{
+            width: 300px;
+        }
     }
     .follow-btn button{
         padding: 10px 40px;
@@ -61,20 +70,29 @@
 @media only screen and (max-width: 500px){
     .slogan-follow {
         top: 200px;
+        padding: 0 30px;
     }
     .slogan-follow .slogan-follow-inner{
         margin-right: 10px;
     }
-    .slogan-follow-inner .slogan img{
+    .slogan-follow-inner .slogan-mobile img{
         width: 150px;
+    }
+    .social-follow ul img{
+        width: 25px;
+        padding-left: 5px;
     }
     .follow-btn button{
         padding: 0 10px;
         float: right;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
+        margin-top: 20px;
     }
     .social-follow{
         margin-top: 0;
+    }
+    .decor-element-1{
+        width: 50px;
     }
     
 }
@@ -100,9 +118,6 @@
     }
     .slogan-follow {
         top: 100px;
-    }
-    .social-follow ul img{
-        width: 25px;
     }
 }
 
