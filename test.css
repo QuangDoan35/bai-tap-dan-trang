@@ -86,3 +86,47 @@
     display: flex;
     justify-content: center;
 }
+.dot-line-mobile{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    align-items: center;
+    margin-right: 20px;
+}
+.dot-mobile{
+    position: absolute;
+}
+.dot-mobile-style{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+.line-mobile, .line-top-mobile{
+    width: 100%;
+}
+.line-mobile-style{
+    width: 1px;
+    height: 200px;
+    background-color: black;
+}
+.line-top-mobile{
+    display: flex;
+}
+.line-top-mobile-style{
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+}
+.line-bottom-mobile{
+    display: flex;
+    position: relative;
+}
+.line-bottom-mobile-style{
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
