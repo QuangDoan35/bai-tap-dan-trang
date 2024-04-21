@@ -453,12 +453,13 @@
     box-shadow: #066cbe90 0px 22px 70px 4px;
     position: relative;
 }
-.decor-center-element{
+.decor-center-software-development-element{
     position: absolute;
     z-index: -1;
     width: 400px;
     top: -60px;
     left: 20px;
+    transform: rotate(-90deg);
 }
 .software-development-inner-body-element-container{
     display: flex;
